@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sdaudit"
+version = "0.3.0"
+description = "Audit toolkit for synthetic tabular data releases (companion code for 'Is synthetic data private by default?')"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.11"
+authors = [{ name = "Mohammad Haris Mushtaq" }, { name = "Naveed Yousuf" }]
+
+[tool.setuptools]
+py-modules = ["sdaudit"]

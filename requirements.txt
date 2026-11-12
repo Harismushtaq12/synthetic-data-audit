@@ -1,0 +1,16 @@
+# Versions used for the revision analyses (Python 3.13). Earlier notebooks used slightly older versions; see README.
+numpy>=2.0
+pandas>=2.2
+scipy>=1.13
+scikit-learn>=1.6
+torch>=2.4
+sdv==2.2.0
+ctgan==0.13.0
+smartnoise-synth==1.0.8
+anonymeter==1.1.0
+codecarbon>=3.0
+jax>=0.4
+matplotlib>=3.8
+seaborn>=0.13
+jupyter
+nbconvert

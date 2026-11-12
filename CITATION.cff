@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this code or the results, please cite the paper below."
+title: "sdaudit: code and results for 'Is synthetic data private by default?'"
+version: 0.3.0
+date-released: 2026-11-12
+license: MIT
+repository-code: "https://github.com/Harismushtaq12/synthetic-data-audit"
+keywords:
+  - synthetic data
+  - membership inference
+  - differential privacy
+  - privacy auditing
+  - algorithmic fairness
+authors:
+  - family-names: Mushtaq
+    given-names: Mohammad Haris
+    email: mohammadharismushtaq@gmail.com
+    affiliation: "National University of Technology (NUTECH), Islamabad, Pakistan"
+  - family-names: Yousuf
+    given-names: Naveed
+    affiliation: "Department of Computer Science, National University of Technology (NUTECH), Islamabad, Pakistan"
+preferred-citation:
+  type: article
+  title: "Is synthetic data private by default? An empirical audit of twelve claims about synthetic tabular data"
+  authors:
+    - family-names: Mushtaq
+      given-names: Mohammad Haris
+    - family-names: Yousuf
+      given-names: Naveed
+  journal: "Journal of Information Security and Applications"
+  status: submitted
+  year: 2026

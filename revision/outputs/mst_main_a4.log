@@ -1,0 +1,6 @@
+credit 0 1.0 data_derived util=0.808 auc=0.506 tpr=0.012 rand=0.012 171s
+credit 0 1.0 public_schema util=0.622 auc=0.506 tpr=0.013 rand=0.013 94s
+bank 0 1.0 data_derived util=0.669 auc=0.506 tpr=0.013 rand=0.013 196s
+bank 0 1.0 public_schema util=0.624 auc=0.502 tpr=0.008 rand=0.008 118s
+diabetes 0 1.0 data_derived util=0.927 auc=0.510 tpr=0.014 rand=0.014 325s
+diabetes 0 1.0 public_schema util=0.930 auc=0.516 tpr=0.015 rand=0.015 173s

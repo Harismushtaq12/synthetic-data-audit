@@ -1,0 +1,9 @@
+bank 0 0.0 auc=0.508 tpr=0.015/0.015 dcr=0.516 gates(o,n,a)=True,True,True 11s
+bank 0 0.005 auc=0.514 tpr=0.017/0.017 dcr=0.518 gates(o,n,a)=False,True,False 7s
+bank 0 0.01 auc=0.518 tpr=0.019/0.019 dcr=0.519 gates(o,n,a)=False,True,False 7s
+bank 0 0.02 auc=0.511 tpr=0.029/0.029 dcr=0.525 gates(o,n,a)=False,False,False 8s
+bank 0 0.05 auc=0.523 tpr=0.058/0.058 dcr=0.538 gates(o,n,a)=False,False,False 8s
+bank 0 0.1 auc=0.550 tpr=0.107/0.107 dcr=0.560 gates(o,n,a)=False,False,False 8s
+bank 0 0.25 auc=0.623 tpr=0.256/0.256 dcr=0.634 gates(o,n,a)=False,False,False 7s
+bank 0 0.5 auc=0.747 tpr=0.503/0.503 dcr=0.751 gates(o,n,a)=False,False,False 7s
+bank 0 1.0 auc=1.000 tpr=1.000/1.000 dcr=1.000 gates(o,n,a)=False,False,False 8s

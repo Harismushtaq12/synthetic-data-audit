@@ -1,0 +1,154 @@
+{
+ "phase1_mech_rho": 0.6071428571428572,
+ "phase1_mech_perm_p": 0.16666666666666666,
+ "phase1_loo_min": 0.3714285714285715,
+ "phase1_loo_max": 0.942857142857143,
+ "phase1_loo_names": {
+  "Independent": 0.94,
+  "GaussianCopula": 0.6,
+  "CART": 0.37,
+  "CTGAN": 0.66,
+  "TVAE": 0.6,
+  "DDPM": 0.37,
+  "MST (\u03b5=1)": 0.66
+ },
+ "phase1_per_dataset_rho": {
+  "Adult": 0.93,
+  "German": 0.64,
+  "Fraud": 0.61,
+  "Pima": 0.61
+ },
+ "phase1_cell_rho": 0.6938093661334358,
+ "phase1_cell_rho_cluster_ci": [
+  0.23778339852550492,
+  0.8693279482859788
+ ],
+ "heldout_runs": 96,
+ "heldout_mechs": [
+  "AR-Transformer",
+  "CART",
+  "CTGAN",
+  "DDPM",
+  "GaussianCopula",
+  "Independent",
+  "MST (\u03b5=1)",
+  "TVAE"
+ ],
+ "heldout_run_rho": 0.5747826086956522,
+ "heldout_run_boot_ci": [
+  0.4102991634409399,
+  0.6988763207274434
+ ],
+ "heldout_cluster_ci": [
+  0.05466308012356226,
+  0.7541221285911835
+ ],
+ "heldout_mech_rho": 0.7142857142857144,
+ "heldout_mech_perm_p": 0.05758928571428571,
+ "heldout_mech_n": 8,
+ "heldout_mech_means": {
+  "util_ratio": {
+   "AR-Transformer": 0.987,
+   "CART": 0.974,
+   "CTGAN": 0.83,
+   "DDPM": 0.946,
+   "GaussianCopula": 0.892,
+   "Independent": 0.72,
+   "MST (\u03b5=1)": 0.741,
+   "TVAE": 0.935
+  },
+  "mia_auc_max": {
+   "AR-Transformer": 0.572,
+   "CART": 0.588,
+   "CTGAN": 0.509,
+   "DDPM": 0.519,
+   "GaussianCopula": 0.51,
+   "Independent": 0.512,
+   "MST (\u03b5=1)": 0.507,
+   "TVAE": 0.509
+  }
+ },
+ "heldout_loo": {
+  "AR-Transformer": 0.61,
+  "CART": 0.61,
+  "CTGAN": 0.71,
+  "DDPM": 0.57,
+  "GaussianCopula": 0.75,
+  "Independent": 0.93,
+  "MST (\u03b5=1)": 0.71,
+  "TVAE": 0.75
+ },
+ "heldout_within_mech_rho": 0.11510142040248408,
+ "R8": [
+  {
+   "mechanism": "AR-Transformer",
+   "datasets_above_half": 4,
+   "mean_auc": 0.572,
+   "dataset_level_p": 0.0625,
+   "p_holm": 0.625
+  },
+  {
+   "mechanism": "CART",
+   "datasets_above_half": 4,
+   "mean_auc": 0.588,
+   "dataset_level_p": 0.0625,
+   "p_holm": 0.625
+  },
+  {
+   "mechanism": "CTGAN",
+   "datasets_above_half": 4,
+   "mean_auc": 0.509,
+   "dataset_level_p": 0.0625,
+   "p_holm": 0.625
+  },
+  {
+   "mechanism": "DDPM",
+   "datasets_above_half": 4,
+   "mean_auc": 0.519,
+   "dataset_level_p": 0.0625,
+   "p_holm": 0.625
+  },
+  {
+   "mechanism": "GaussianCopula",
+   "datasets_above_half": 4,
+   "mean_auc": 0.51,
+   "dataset_level_p": 0.0625,
+   "p_holm": 0.625
+  },
+  {
+   "mechanism": "Identity",
+   "datasets_above_half": 4,
+   "mean_auc": 0.95,
+   "dataset_level_p": 0.0625,
+   "p_holm": 0.625
+  },
+  {
+   "mechanism": "Independent",
+   "datasets_above_half": 4,
+   "mean_auc": 0.512,
+   "dataset_level_p": 0.0625,
+   "p_holm": 0.625
+  },
+  {
+   "mechanism": "MST (\u03b5=1)",
+   "datasets_above_half": 4,
+   "mean_auc": 0.507,
+   "dataset_level_p": 0.0625,
+   "p_holm": 0.625
+  },
+  {
+   "mechanism": "TVAE",
+   "datasets_above_half": 4,
+   "mean_auc": 0.509,
+   "dataset_level_p": 0.0625,
+   "p_holm": 0.625
+  },
+  {
+   "mechanism": "k-anon (k=10)",
+   "datasets_above_half": 4,
+   "mean_auc": 0.873,
+   "dataset_level_p": 0.0625,
+   "p_holm": 0.625
+  }
+ ]
+}

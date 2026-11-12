@@ -1,0 +1,6 @@
+compas 0 1.0 data_derived util=0.603 auc=0.514 tpr=0.013 rand=0.013 67s
+compas 0 1.0 public_schema util=0.580 auc=0.510 tpr=0.012 rand=0.012 55s
+compas 1 1.0 data_derived util=0.587 auc=0.495 tpr=0.012 rand=0.012 227s
+compas 1 1.0 public_schema util=0.537 auc=0.493 tpr=0.010 rand=0.010 120s
+compas 2 1.0 data_derived util=0.563 auc=0.505 tpr=0.012 rand=0.012 244s
+compas 2 1.0 public_schema util=0.593 auc=0.497 tpr=0.012 rand=0.012 269s

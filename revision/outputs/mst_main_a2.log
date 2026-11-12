@@ -1,0 +1,6 @@
+Reached maximum number of attempts 2000000 when generating singling out queries. Returning 497 instead of the requested 500.
+Attack `multivariate` could generate only 497 singling out queries out of the requested 500. This can probably lead to an underestimate of the singling out risk.
+compas 0 1.0 data_derived util=0.620 auc=0.508 tpr=0.012 rand=0.012 183s
+Reached maximum number of attempts 2000000 when generating singling out queries. Returning 431 instead of the requested 500.
+Attack `multivariate` could generate only 431 singling out queries out of the requested 500. This can probably lead to an underestimate of the singling out risk.
+compas 0 1.0 public_schema util=0.615 auc=0.519 tpr=0.014 rand=0.014 245s

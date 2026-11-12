@@ -1,0 +1,9 @@
+regime,generator,mean,ci_t,size
+below operating range (n ≤ 250),CART,-0.0473,0.0231,9
+below operating range (n ≤ 250),CTGAN,-0.1643,0.0517,9
+below operating range (n ≤ 250),GaussianCopula,-0.0382,0.0213,9
+below operating range (n ≤ 250),TVAE,-0.0482,0.0368,9
+operating range (n ≥ 500),CART,-0.0067,0.0025,9
+operating range (n ≥ 500),CTGAN,-0.0473,0.0191,9
+operating range (n ≥ 500),GaussianCopula,-0.0189,0.0044,9
+operating range (n ≥ 500),TVAE,-0.01,0.0054,9

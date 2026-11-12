@@ -1,0 +1,23 @@
+german 0 1.0 data_derived util=0.683 auc=0.533 tpr=0.025 rand=0.025 35s
+german 0 1.0 public_schema util=0.716 auc=0.516 tpr=0.013 rand=0.013 31s
+german 1 1.0 data_derived util=0.682 auc=0.522 tpr=0.015 rand=0.015 31s
+german 1 1.0 public_schema util=0.619 auc=0.552 tpr=0.022 rand=0.022 28s
+german 2 1.0 data_derived util=0.742 auc=0.502 tpr=0.020 rand=0.020 30s
+german 2 1.0 public_schema util=0.604 auc=0.519 tpr=0.040 rand=0.040 31s
+german 3 1.0 data_derived util=0.665 auc=0.511 tpr=0.020 rand=0.020 29s
+german 3 1.0 public_schema util=0.584 auc=0.533 tpr=0.020 rand=0.020 29s
+german 4 1.0 data_derived util=0.600 auc=0.523 tpr=0.020 rand=0.020 29s
+german 4 1.0 public_schema util=0.812 auc=0.506 tpr=0.005 rand=0.005 28s
+pima 0 1.0 data_derived util=0.871 auc=0.506 tpr=0.016 rand=0.016 13s
+pima 0 1.0 public_schema util=0.621 auc=0.517 tpr=0.020 rand=0.020 12s
+pima 1 1.0 data_derived util=0.837 auc=0.530 tpr=0.016 rand=0.016 12s
+pima 1 1.0 public_schema util=0.805 auc=0.526 tpr=0.013 rand=0.013 11s
+pima 2 1.0 data_derived util=0.689 auc=0.537 tpr=0.039 rand=0.039 12s
+pima 2 1.0 public_schema util=0.725 auc=0.526 tpr=0.029 rand=0.029 11s
+pima 3 1.0 data_derived util=0.593 auc=0.516 tpr=0.016 rand=0.016 12s
+pima 3 1.0 public_schema util=0.771 auc=0.532 tpr=0.023 rand=0.023 12s
+pima 4 1.0 data_derived util=0.823 auc=0.506 tpr=0.010 rand=0.010 12s
+pima 4 1.0 public_schema util=0.916 auc=0.512 tpr=0.003 rand=0.003 12s
+Reached maximum number of attempts 2000000 when generating singling out queries. Returning 427 instead of the requested 500.
+Attack `multivariate` could generate only 427 singling out queries out of the requested 500. This can probably lead to an underestimate of the singling out risk.
+compas 0 1.0 data_derived util=0.567 auc=0.510 tpr=0.013 rand=0.013 150s
